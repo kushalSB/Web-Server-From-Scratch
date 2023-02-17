@@ -39,3 +39,8 @@
     - in the file serving_html_file.py we send different html files for different requests
     - to send an html file, just attach the byte encoded html file to reponse and send it
 
+### Responding with Multiple files
+
+    - here we send html,js and css file
+    - to do so, one must send each files seperately i.e if i want to send main.js file i send it when path /main.js is requested...
+    - i can request this by just putting src="localhost:8000/main.js" and the file will be loaded

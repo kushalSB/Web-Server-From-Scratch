@@ -18,23 +18,13 @@ with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:
 
             if data:
                 data_str= data.decode()
-    
-
                 request_type=data_str.split(' ')[0]
                 request_path=data_str.split('/')[1].split(" ")[0]
-                
-               
                 if request_type=="GET" and request_path=="":
-                    with open("./dummy_files/index.html","r") as file:
-                        html_content= file.read()
-                    
+                    with open("./dummy_files/index.html","r",encoding="utf-8") as file:
+                        html_content= file.read()                    
                     html_bytes=html_content.encode()
                     response=b'HTTP/1.1 200 OK\nContent-Type: text/html\n\n ' + html_bytes
-                    conn.sendall(response)        
-                    
-
-
-                
+                    conn.sendall(response)
             else:
                 break
-
