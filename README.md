@@ -44,3 +44,9 @@
     - here we send html,js and css file
     - to do so, one must send each files seperately i.e if i want to send main.js file i send it when path /main.js is requested...
     - i can request this by just putting src="localhost:8000/main.js" and the file will be loaded
+
+Now we have completed the basics
+We can right now send files that we want
+Let us now build api
+
+### Building Api
