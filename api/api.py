@@ -4,8 +4,8 @@ import socket
 HOST=''
 PORT=8000
 SEARCH_LIST={
-    "Kushal":"Yeah he is Admin",
-    "Amrit":"Yeah he is a bitch",
+    "Kushal":"Yeah he is a Admin",
+    "Rupesh":"Yeah he is a bitch",
     "Key":"Oh i cant give you key now can I",
     "Apasara":"Hahahahaha....Cough Cough"
 }

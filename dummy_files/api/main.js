@@ -5,7 +5,7 @@ const displayBox = document.getElementById("display-box");
 searchButton.addEventListener("click", sendRequest);
 
 function sendRequest() {
-  fetch("http://localhost:8000/api", {
+  fetch("http://192.168.1.72:8000/api", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ searchQuerry: inputBox.value }),

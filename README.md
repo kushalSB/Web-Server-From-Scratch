@@ -50,3 +50,14 @@ We can right now send files that we want
 Let us now build api
 
 ### Building Api
+
+    - So, now we create api that seraches a querry and return a data.. the code is self explanatory
+    - We need Post request, jsonify the data in back end and send response by checking the data in request
+    - We also need to write a js script to request the data
+
+### Now lets start some real projects... lets build a group chat application
+
+- First We need to make login sytem
+- We need to make a common room where everyone can chat
+
+### Next up is using flask
